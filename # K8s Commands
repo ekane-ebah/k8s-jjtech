@@ -11,6 +11,7 @@ alias kgn="kubectl get nodes"
 kubectl api-resources  # To get all api resources i.e their NAME, SHORTNAMES, APIVERSION, NAMESPACED, KIND
 
 Kubectl run -h # to get list of subcommands
+kubectl create ns
 
 kubectl get <object e.g pod, deployment, service etc ...> -A # Get all object resources accross all namespaces in your cluster
 
